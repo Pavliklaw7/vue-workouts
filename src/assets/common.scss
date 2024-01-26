@@ -1,0 +1,112 @@
+/* .font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.h2-title {
+  @extend %h2-content;
+  color: $black;
+}
+
+.h3-title {
+  @extend %h3-content;
+  color: $black;
+}
+
+.h4-title {
+  @extend %h4-content;
+  color: $black;
+}
+
+.h4-bold {
+  @extend %h4-content;
+  color: $gray-dark;
+}
+
+.h5-title {
+  @extend %h5-content;
+  color: $black;
+} */
+
+.h1-title {
+  @extend %h1-content;
+  color: $black;
+}
+
+.h4-title {
+  @extend %h4-content;
+}
+
+.h5-title {
+  @extend %h5-content;
+}
+
+.subtitle {
+  @extend %p-subtitle;
+}
+
+.caption {
+  @extend %h5-content;
+  line-height: 23px;
+  font-weight: normal;
+}
+
+.caption1 {
+  @extend %p-caption;
+}
+
+.caption2 {
+  @extend %p-caption;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.body1 {
+  @extend %body-content;
+}
+
+.body2 {
+  @extend %body-content;
+  font-weight: 600;
+}
+
+.hilight-secondaty {
+  color: $secondary
+}
+
+
+/* 
+.caption1 {
+  @extend %body-content;
+  font-size: 12px;
+  line-height: 18px;
+  color: $black;
+}
+
+.caption2 {
+  @extend %body-content;
+  font-size: 10px;
+  line-height: 16px;
+  color: $black;
+}
+
+.caption3 {
+  @extend %body-content;
+  font-size: 14px;
+  line-height: 22px;
+  color: $black;
+}
+
+@media screen and (max-width: 763px) {
+  .h2-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+} */

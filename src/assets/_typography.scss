@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$font-family-default: 'Work Sans', normal;
+
+%p-caption {
+  font-family: $font-family-default;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+%p-subtitle {
+  font-family: $font-family-default;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+%h1-content {
+  font-family: $font-family-default;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+%h2-content {
+  font-family: $font-family-default;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+%h3-content {
+  font-family: $font-family-default;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+%h4-content {
+  font-family: $font-family-default;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+%h5-content {
+  font-family: $font-family-default;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+%body-l-content {
+  font-family: $font-family-default;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+%body-m-content {
+  font-family: $font-family-default;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+%body-content {
+  font-family: $font-family-default;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* 
+%body-content {
+  font-family: $font-family-default;
+  font-style: normal;
+  font-size: 18px;
+}
+
+%h2-content {
+  font-family: $font-family-default;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+}
+
+%h3-content {
+  font-family: $font-family-default;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+%h4-content {
+  font-family: $font-family-default;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+%h5-content {
+  font-family: $font-family-default;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+} */
+
+
+/* 
+@mixin modern-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #343A4C;
+}
+
+@mixin modern-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343A4C;
+}
+
+@mixin modern-small-text {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #555E74;
+}
+
+@mixin description-small-text {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: $gray-dark;
+}
+
+@mixin error-warning-small-text {
+  display: block;
+  margin: 8px 0 0 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@mixin modern-input {
+  padding: 12px;
+  border: 1px solid #CECECE;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  transition-duration: .2s;
+
+  &:focus {
+    box-shadow: 0px 0px 12px rgba(10, 10, 10, 0.07);
+    border-color: #5E50A0;
+    outline: none;
+  }
+}
+
+@mixin landing-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000;
+
+  @media screen and (max-width: 763px) {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@mixin portal-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: $black;
+}
+
+@mixin landing-subtitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000;
+
+  @media screen and (max-width: 763px) {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+}
+
+@mixin landing-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+
+  @media screen and (max-width: 763px) {
+    font-size: 14px;
+  }
+}
+
+@mixin landing-small-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+} 
+*/
