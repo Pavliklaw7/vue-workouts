@@ -7,12 +7,10 @@
                 </div>
                 <div class="about__block">
                     <div class="about__block-title h4-title">About us</div>
-                    <p class="about__block-text caption">For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way.</p>
+                    <p class="about__block-text body-m">For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way.</p>
                     <br>
-                    <p class="about__block-text caption">We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.</p>
-                    <button class="about__block-button body2">
-                        More on Our History
-                    </button>
+                    <p class="about__block-text body-m">We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.</p>
+                    <BaseButton class="about__block-button body2" title="More on Our History"/>
                 </div>
             </div>
  
@@ -22,9 +20,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import BaseButton from '@/components/base/BaseButton.vue'
 
   export default defineComponent({
-
+    components: {
+        BaseButton
+    }
   })
 </script>
 
@@ -60,9 +61,6 @@ import { defineComponent } from 'vue'
     }
     &__block-button {
         margin-top: 74px;
-        padding: 16px 20px;
-        border-radius: 6px;
-        color: #2947A9;
     }
 }
 </style>

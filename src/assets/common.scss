@@ -1,47 +1,21 @@
-/* .font-regular {
-  font-weight: 400;
-}
-
-.font-medium {
-  font-weight: 500;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.h2-title {
-  @extend %h2-content;
-  color: $black;
-}
-
-.h3-title {
-  @extend %h3-content;
-  color: $black;
-}
-
-.h4-title {
-  @extend %h4-content;
-  color: $black;
-}
-
-.h4-bold {
-  @extend %h4-content;
-  color: $gray-dark;
-}
-
-.h5-title {
-  @extend %h5-content;
-  color: $black;
-} */
-
 .h1-title {
   @extend %h1-content;
   color: $black;
 }
 
+.h2-title {
+  @extend %h2-content;
+}
+
+.h2-title-bold {
+  @extend %h2-content;
+  font-weight: 800;
+}
+
+
 .h4-title {
   @extend %h4-content;
+  font-weight: 700;
 }
 
 .h5-title {
@@ -58,18 +32,34 @@
   font-weight: normal;
 }
 
+// .caption1 {
+//   @extend %p-caption;
+// }
+
 .caption1 {
   @extend %p-caption;
 }
 
-.caption2 {
-  @extend %p-caption;
-  font-size: 16px;
-  line-height: 19px;
-}
-
 .body1 {
   @extend %body-content;
+}
+
+.body-m {
+  @extend %body-m-content;
+}
+.body-m-bold {
+  @extend %body-m-content;
+  font-weight: 800;
+}
+
+.body-l {
+  @extend %body-l-content;
+  font-weight: 600;
+}
+
+.body-l-bold {
+  @extend %body-l-content;
+  font-weight: 800;
 }
 
 .body2 {

@@ -6,10 +6,10 @@
                     <img src="@/assets/experience_img.png" alt="Happy Clients, Projects Completed, Projects Completed, Years in Business">
                 </div>
                 <div class="experience__block">
-                    <h2 class="experience__title h2-title">
+                    <h2 class="experience__title h2-title-bold">
                         30 Years Experience
                     </h2>
-                    <p class="experience__text caption">
+                    <p class="experience__text body-m">
                         Our company has been the leading provided construction services to clients throughout the USA since 1988.
                     </p>
                     <button class="experience__button body2">
@@ -48,6 +48,7 @@ export default defineComponent({
     }
     &__title {
         margin-bottom: 40px;
+        color: #2947A9
     }
     &__text {
         margin-bottom: 67px;
